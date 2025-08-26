@@ -1,1 +1,51 @@
 @import "tailwindcss";
+
+body {
+  background-color: #f8f6ff;
+  box-sizing: border-box;
+}
+
+:root {
+  --icon-bg: linear-gradient(
+    135deg,
+    hsl(212 100% 45%) 0%,
+    hsl(228 100% 55%) 100%
+  );
+  --float-bg: #dfe8fc;
+  --blue: #0071ea;
+  --custom-black: #0f1729;
+  --gradient-hero: linear-gradient(
+    135deg,
+    hsl(212 100% 45%) 0%,
+    hsl(228 100% 55%) 50%,
+    hsl(260 100% 60%) 100%
+  );
+}
+
+@layer base {
+  .container {
+    @apply p-2 rounded-xl;
+    background: var(--icon-bg);
+  }
+
+  .text-blue {
+    color: var(--blue);
+  }
+
+  .bg-blue {
+    background-color: var(--float-bg);
+  }
+
+  .text-custom-black {
+    color: var(--custom-black);
+  }
+}
+
+@layer components {
+  .padding {
+    padding: clamp(0.5rem, 5vw, 1.5rem);
+  }
+  .bg-gradient-hero {
+    background: var(--gradient-hero);
+  }
+}

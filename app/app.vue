@@ -1,5 +1,11 @@
 <template>
-  <div>
-    <h1 class="text-3xl font-bold underline">Hello world!</h1>
+  <div class="flex flex-col min-h-screen">
+    <AppNavigation />
+
+    <main class="flex-1">
+      <AppMain />
+    </main>
+
+    <AppFooter />
   </div>
 </template>
