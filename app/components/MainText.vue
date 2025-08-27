@@ -15,6 +15,7 @@
       generate a professional README file with a full analysis of the project
       structure.
     </p>
+    <GithubContainer />
     <PossibilityContainer />
   </div>
 </template>

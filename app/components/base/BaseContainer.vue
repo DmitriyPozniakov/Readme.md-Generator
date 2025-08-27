@@ -1,6 +1,6 @@
 <template>
-    <div class="container max-h-[60px] w-[60px]">
-        <img class="min-h-[40px]" :src="props.url" alt="icon">
+    <div class="container max-h-[60px] w-[60px]" :class="{ 'rounded-full': props.rounded }">
+        <img class="min-h-[40px] w-full h-full object-cover" :src="props.url" alt="icon">
     </div>
 </template>
 
@@ -9,6 +9,7 @@ import { defineProps } from 'vue';
 
 interface Props {
     url: string
+    rounded?: boolean
 }
 
 const props = defineProps<Props>();
