@@ -1,5 +1,5 @@
 <template>
-  <div class="flex flex-col items-center justify-center h-screen gap-8">
+  <div class="flex flex-col items-center justify-center h-[500px] gap-8">
     <h1
       class="text-3xl text-custom-black sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl 2xl:text-8xl max-w-6xl text-center font-bold"
     >
