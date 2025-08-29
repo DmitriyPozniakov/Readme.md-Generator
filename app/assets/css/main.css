@@ -32,6 +32,10 @@ body {
     color: var(--blue);
   }
 
+  .active-blue {
+    background: var(--blue);
+  }
+
   .bg-blue {
     background-color: var(--float-bg);
   }

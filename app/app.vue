@@ -3,7 +3,7 @@
     <AppNavigation />
 
     <main class="flex-1">
-      <AppMain />
+      <NuxtPage />
     </main>
 
     <AppFooter />
