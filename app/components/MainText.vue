@@ -15,7 +15,10 @@
       generate a professional README file with a full analysis of the project
       structure.
     </p>
-    <GithubContainer />
+    <div class="flex gap-4 flex-col">
+      <GithubContainer />
+      <ZipContainer />
+    </div>
     <PossibilityContainer />
   </div>
 </template>
