@@ -1,5 +1,5 @@
 <template>
-  <div class="flex flex-col gap-6 items-center bg-white rounded-2xl p-6">
+  <div class="flex flex-col gap-6 items-center bg-white rounded-2xl p-6 max-w-[600px] w-full">
     <BaseContainer url="/images/icons/download.svg" :rounded="true" />
     <h2 class="text-custom-black text-xl font-bold">Uploading files</h2>
     <p class="text-gray-500 text-center">

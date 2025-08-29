@@ -9,16 +9,17 @@
       in minutes
     </h1>
     <p
-      class="text-gray-500 text-center text-base sm:text-lg md:text-xl lg:text-2xl max-w-3xl"
+      class="text-gray-500 text-center text-base sm:text-lg md:text-xl lg:text-2xl max-w-3xl mb-4"
     >
       Upload your GitHub repository or ZIP archive and we will automatically
       generate a professional README file with a full analysis of the project
       structure.
     </p>
-    <div class="flex gap-4 flex-col">
+    <div class="flex gap-4 items-baseline flex-col">
       <GithubContainer />
+      <TheSeparator />
       <ZipContainer />
+      <PossibilityContainer />
     </div>
-    <PossibilityContainer />
   </div>
 </template>

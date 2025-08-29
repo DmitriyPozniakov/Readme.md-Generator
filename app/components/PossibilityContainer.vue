@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-transparent border border-gray-300 rounded-2xl p-6">
+  <div class="bg-transparent border border-gray-300 rounded-2xl p-6 max-w-[600px] w-full">
     <ul class="flex flex-col gap-1 list-disc list-outside pl-4">
       <li class="text-custom-black font-semibold list-none flex items-center gap-2 mb-2">
         <img class="h-[25px]" src="/images/icons/doc-blue.svg" alt="">
