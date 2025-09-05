@@ -1,0 +1,46 @@
+{
+    "nav": {
+        "title": "README Generator",
+        "preTitle": "Automatic generation README files",
+        "integration": "GitHub Integration"
+    },
+    "main": {
+        "floating": "Automatic generation documentation",
+        "title": "Create your perfect README in minutes",
+        "preTitle": "Upload your GitHub repository or ZIP archive and we will automatically generate a professional README file with a full analysis of the project structure."
+    },
+    "githubContainer": {
+        "title": "GitHub Repository",
+        "article": "Enter the link to your GitHub repository (public or private)",
+        "url": "URL of repository",
+        "button": "Analyze repository"
+    },
+    "separator": "OR",
+    "zipContainer": {
+        "title": "Uploading files",
+        "article": "Drag and drop your project ZIP archive or select a file",
+        "dragTitle": "Drag and drop your ZIP file here",
+        "dragPreTitle": "or click to select a file",
+        "button": "Select file",
+        "textBottom": "Only ZIP archives are supported. Maximum size: 50MB"
+    },
+    "capabilities": {
+        "cap_1": "Analysis of project structure and technologies",
+        "cap_2": "Automatic creation of README sections",
+        "cap_3": "Support for public and private repositories",
+        "cap_4": "Uploading projects via ZIP archives",
+        "cap_5": "Preview and export of results",
+        "cap_6": "Ready-made templates for different types of projects"
+    },
+    "footer": {
+        "title": "README Generator",
+        "preTitle": "Automatic generation of professional README files for your projects",
+        "possibilities": {
+            "title": "Possibilities",
+            "pos_1": "GitHub repositories analysis",
+            "pos_2": "Downloading ZIP archives",
+            "pos_3": "Automatic formatting",
+            "pos_4": "Exporting results"
+        }
+    }
+}
